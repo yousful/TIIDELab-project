@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/*Main Header*/
+
+.heading{
+    margin: 10px 0;
+    
+}
+
+/*Search Box Section*/
+
+.search-box{
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+#search{
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+}
+
+/*Users List section*/
+
+.user-list-section{
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    background-color: #f6f6f6;
+    padding: 10px;
+    background-color: #eee7e7;
+    border: 1px solid rgb(190, 186, 186);
+    margin: -1px;
+    text-transform: capitalize;
+
+}
+.username{
+    background-color: rgb(103, 77, 128);
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+li:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/*Media Query for large screen*/
+
+@media(min-width: 1000px) {
+    body{
+        width: 50%;
+    }
+    li{
+        font-size: 14px;
+    }
+}

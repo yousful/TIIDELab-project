@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Database</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!--Main header section-->
+<main>
+        <h2 class="heading">Users Table</h2>
+
+    <!--Search Box Section-->
+    <section class="search-box">
+        <input id="search" type="mail" placeholder="Search by username" onkeyup ="searchUsersByUsername()"/>
+    </section>
+
+    <!--User List Section-->
+    <section class="user-list-section">
+        <!--The li tags are dynamic from the js file-->
+        <ul id="user-list-container"></ul>
+    </section>
+</main>
+    <!--JavaScript-->
+
+    <script src="./index.js"></script>
+</body>
+</html>
